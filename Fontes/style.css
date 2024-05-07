@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(255, 134, 174);
+padding: 12px;
+border-radius: 10vh;
+color: black;
+margin-block: 20px;
+}
+h2:hover{
+    color: rgb(173, 12, 173);
+}
+.Política_de_privacidade{
+
+    margin-inline: 100px
+}
+b i:hover{
+    color: rgb(0, 89, 255);
+}
+b{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(121, 43, 121);
+}
