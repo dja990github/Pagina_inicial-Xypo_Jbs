@@ -64,7 +64,7 @@ nav{
 .itemNav:hover{
     background-color: #0000ff;
     padding: 0.5%;
-    border-radius: 20%;
+    border-radius: 30px;
     transition-duration: 1s;
 }
 a{
