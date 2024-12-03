@@ -65,6 +65,7 @@ nav{
     background-color: #0000ff;
     padding: 0.5%;
     border-radius: 30px;
+    transform: tranlateX(1vh) rotate(10deg);
     transition-duration: 1s;
 }
 a{
