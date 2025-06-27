@@ -62,7 +62,6 @@ nav{
     padding-inline: 2vh;
 }
 .itemNav:hover{
-    background-color: #0000ff;
     padding: 0.5%;
     border-radius: 30px;
     transform: tranlateX(1vh) rotate(10deg);
