@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: rgb(0, 0, 173);
+}
+
+h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+img{  
+    margin: 10px;
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+
+.caixa1{
+
+    margin-right: 50%;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: rgb(0, 0, 76);
+    padding-inline: 1vh;
+}
+.caixa2{
+
+    margin-inline: 30%;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: rgb(13, 151, 86);
+    padding-inline: 1vh;
+}
+.caixa3{
+
+    margin-left: 50%;
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: rgb(255, 179, 0);
+    padding-inline: 1vh;
+}
+ul{
+    margin-left: 30px;
+    font-size: 25px;
+    color: #FFFFFF;
+    list-style:georgian;
+}
+li{
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffFF;
+}
+a{
+    color: #FFFFFF;
+}
+a:hover{
+    color: aqua;
+    transition-duration: 1s;
+}
+button{
+    background-color: rgb(0, 0, 173);
+}
+#BarraLateral{
+    position: fixed;
+    top: 20vh;
+    visibility: hidden;
+    background-color: #a9fd00;
+    inline-size: 200px;
+    block-size: 100%;
+}
+#BarraLateral-txt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3vh;
+}
+#BarraLateral-txt a{
+    text-decoration: none;
+    color: black;
+}
+.html{
+    color: #ff2200;
+}
+.css{
+    color: #00b3ff;
+}
+.js{
+    color: #ffff00;
+}
+.php{
+    color: #c903c9;
+}
