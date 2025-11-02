@@ -1,90 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon"  href="./img/logo - black.png">
     <title>Página inicial</title>
-    <link rel="icon" href="./imagens/logo - black.png">
-    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
     <nav>
-
+        <section class="theme">
             <button onclick="temabtn()" class="BtnTema">Tema</button>
-            <h4 id="Home" class="itemNav">
+        </section>
+
+        <section class="btnsNav">
+            <button id="Home" class="itemNav">
                 <a href="https://dja990github.github.io/Xypo_Jobs_Home/" target="_blank">
                      Home
                 </a>
-            </h4>
-            <h4 id="Contato" class="itemNav">
+            </button>
+            <button id="Contato" class="itemNav">
                 <a href="https://www.facebook.com/" target="_blank">
                     Contato
                 </a>
-            </h4>
-            <h4 id="Projetos" class="itemNav">
+            </button>
+            <button id="Projetos" class="itemNav">
                 <a href="./Projetos/sites.html" target="_blank">
                     Projetos
                 </a>
-            </h4>
-            <h4 id="Games" class="itemNav">
+            </button>
+            <button id="Games" class="itemNav">
                 <a href="./Games/games.html" target="_blank">
                     Games
                 </a>
-            </h4>
+            </button>
+        </section>
 
+        <section class="theme-rs">
+            <button onclick="temabtn()" class="BtnTema">Tema</button>
+        </section>
     </nav>
 
-    <p id="lineT1">
-            <h2>Página inicial</h2>
-            <img id="imgFOTO" src="./imagens/logo mclaren.jpg" onclick="window.location.href = 'http://login.gru.ifsp.edu.br/'" target="_blank">
-            <br>
-    </p>
 
-          
-    
+
     <main>
+        <section class="pages">
         <h3>
             Páginas/links
         </h3>
-        <br>
-        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">
-                    <img id="L1" class="IMGlink" src="./imagens/Gmail_Icon.png">
+        <div class="IMGlink">
+        <a  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">
+                    <img id="L1"  src="./img/Gmail_Icon.png">
         </a>
-        <a href="https://github.com/" target="_blank">
-                    <img id="L2" class="IMGlink" src="./imagens/github-logo.jpg">
+        <a  href="https://github.com/" target="_blank">
+                    <img id="L2"  src="./img/github-logo.jpg">
         </a>
-        <a href="https://web.whatsapp.com/" target="_blank">
-                    <img id="L3" class="IMGlink" src="./imagens/LogoWTS.png">
+        <a  href="https://web.whatsapp.com/" target="_blank">
+                    <img id="L3"  src="./img/LogoWTS.png">
         </a>
-        <a href="https://moodle.gru.ifsp.edu.br/login/index.php" target="_blank">
-                    <img id="L4" class="IMGlink" src="./imagens/LogoMD.png">
+        <a  href="https://moodle.gru.ifsp.edu.br/login/index.php" target="_blank">
+                    <img id="L4"  src="./img/LogoMD.png">
         </a>
-        <a href="https://scratch.mit.edu/" target="_blank">
-            <img id="L5" class="IMGlink" src="./imagens/ScratchLG.png">
+        <a  href="https://scratch.mit.edu/" target="_blank">
+            <img id="L5"  src="./img/ScratchLG.png">
         </a>
-        <a href="https://suap.ifsp.edu.br/" target="_blank">
-            <img id="L6" class="IMGlink" src="./imagens/LogoSuap.png">
+        <a  href="https://suap.ifsp.edu.br/" target="_blank">
+            <img id="L6"  src="./img/LogoSuap.png">
         </a>
-        <a href="https://youtube.com/" target="_blank">
-            <img id="L7" class="IMGlink" src="./imagens/YTB - logo.png">
+        <a  href="https://expo.dev/accounts/armandoumgolpe" target="_blank">
+            <img id="L7"  src="./img/YTB - logo.png">
         </a>
+        <a  href="https://expo.dev/accounts/armandoumgolpe" target="_blank">
+            <img id="L8"  src="./img/expo.png">
+        </a>
+        </div>
+        </section>
+
+        <section target="_blank" onclick="Google()" class="Navegar">
+        <p>Pagina inicial</p>
+            <div>
+                <img id="lgGoogle" src="./img/Google.jpg">
+                <img id="lgGoogle-1" src="./img/Google-1.png">
+            </div>
+        </section>
+
+
+
+        <section id="lineT1">
+            <img id="imgFOTO" src="./img/logo mclaren.jpg" onclick="window.location.href = 'http://login.gru.ifsp.edu.br/'" target="_blank">
+            <br>
+        </section>
     </main>
 
-    <div id="GoogleIMGs">
-    <img id="IMGPrincipal" src="./imagens/logo - black.png">
+        <img id="logoSite" src="./img/logo - black.png">
 
 
-    <a href="#" onclick="Google()">
 
-          <img id="lgGoogle" src="./imagens/Google.jpg">
-
-                                     <br>
-
-          <img id="lgGoogle-1" src="./imagens/Google-1.png">
-
-    </a>
-    </div>
    <script>
     function Google() {
         window.open('https://www.google.com.br', '_blank');
@@ -99,9 +110,8 @@
                     Privado | Termos de Uso</a></button>
                 </u>
     </footer>
-    
-    <script src="temas.js"></script>
-    <noscript>You need to anable JavaScript to view the full site.</noscript>
+ <script src="./js/temas.js"></script>
+<noscript>You need to anable JavaScript to view the full site.</noscript>
 <body class="light-theme"></body>
 <body class="dark-theme"></body>
 </body>
