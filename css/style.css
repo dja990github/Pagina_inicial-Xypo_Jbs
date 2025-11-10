@@ -162,7 +162,8 @@ main .pages .IMGlink{
 
 
 #logoSite{
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     width: 90px;
     right: 25px;
     bottom: 55px;
